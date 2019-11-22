@@ -1,5 +1,4 @@
-FROM alpine:3.7
-LABEL maintainer="cew1350@gmail.com"
+FROM alpine:latest
 
 RUN \
   apk update && \
